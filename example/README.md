@@ -228,3 +228,6 @@ This project is [MIT](https://github.com/snowdreams1006/gitbook-plugin-edit-link
 
 1. If you are not seeing the "Edit this page" link, check if your `book.json` is valid. You can use this online tool - [http://json.parser.online.fr/beta/](http://json.parser.online.fr/beta/)
 2. Check if you are using default gitbook theme. It is NOT recommended to modify gitbook themes directly.
+
+<div style="position: absolute;bottom: 0;left: 50%;transform: translate(-50%, -50%);">ICP证：<a href="http://beian.miit.gov.cn/" target="_blank" style="color:#f72b07">浙ICP备18042346号</a>
+</div>

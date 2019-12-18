@@ -1,7 +1,7 @@
 {
-    "title": "edit-link-plus example",
+    "title": "icp example",
     "author": "snowdreams1006",
-    "description": "gitbook-plugin-edit-link-plus example",
+    "description": "gitbook-plugin-icp example",
     "gitbook": "3.2.3",
     "links": {
         "sidebar": {
@@ -10,7 +10,7 @@
     },
     "plugins": [
         "favicon-absolute",
-        "edit-link-plus"
+        "icp"
     ],
     "pluginsConfig": {
         "favicon-absolute": {
@@ -27,14 +27,9 @@
                 "180x180": "/apple-touch-icon-precomposed-180.png"
             }
         },
-        "edit-link-plus": {
-            "base": {
-              "snowdreams1006.github.io":"https://github.com/snowdreams1006/gitbook-plugin-edit-link-plus/edit/master/docs",
-              "snowdreams1006.gitlab.io":"https://gitlab.com/snowdreams1006/gitbook-plugin-edit-link-plus/edit/master/docs",
-              "snowdreams1006.gitee.io":"https://gitee.com/snowdreams1006/gitbook-plugin-edit-link-plus/edit/master/docs"
-            },
-            "defaultBase": "https://github.com/snowdreams1006/gitbook-plugin-edit-link-plus/edit/master/docs",
-            "label": "Edit This Page"
+        "icp": {
+            "label":"ICP证: ",
+            "number":"浙ICP备18042346号"
         }
     }
 }
