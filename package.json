@@ -1,0 +1,29 @@
+{
+  "name": "gitbook-plugin-icp",
+  "version": "0.0.1",
+  "description": "gitbook plugin for adding icp info to footer",
+  "main": "index.js",
+  "engines": {
+    "gitbook": ">=2.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snowdreams1006/gitbook-plugin-icp.git"
+  },
+  "keywords": [
+    "gitbook-plugin-icp",
+    "icp",
+    "website",
+    "supervision",
+    "supervision"
+  ],
+  "author": {
+    "name": "snowdreams1006",
+    "email": "snowdreams1006@163.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/snowdreams1006/gitbook-plugin-icp/issues"
+  },
+  "homepage": "https://github.com/snowdreams1006/gitbook-plugin-icp#readme"
+}
