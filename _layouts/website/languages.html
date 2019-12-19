@@ -1,0 +1,28 @@
+{% extends template.self %}
+
+{% block body %}
+
+<div class="book-langs-index" role="navigation">
+    <div class="inner">
+        <h3>{{ "LANGS_CHOOSE"|t }}</h3>
+
+        <ul class="languages">
+        {%  for lang in languages.list %}
+            <li>
+                <a href="{{ (lang.id + "/README.md")|contentURL }}">{{ lang.title }}</a>
+            </li>
+        {% endfor %}
+        </ul>
+
+        {% if config.pluginsConfig['icp'] %}
+        <div style="position: absolute;bottom: 0;left: 50%;transform: translate(-50%, -50%);">
+            {{ config.pluginsConfig['icp'].label }}
+            <a href="{{ config.pluginsConfig['icp'].link }}" target="blank" class="gitbook-link" style="color:#f72b07">
+            {{ config.pluginsConfig['icp'].number }}
+            </a>
+        </div>
+        {% endif %}
+    </div>
+</div>
+
+{% endblock %}
