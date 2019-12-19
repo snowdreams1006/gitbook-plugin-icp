@@ -17,6 +17,26 @@
     "supervision",
     "supervision"
   ],
+  "gitbook": {
+    "properties": {
+      "label": {
+        "type": "string",
+        "title": "icp label",
+        "required": false
+      },
+      "number": {
+        "type": "string",
+        "title": "icp number",
+        "required": true
+      },
+      "link": {
+        "type": "string",
+        "title": "link url",
+        "required": false,
+        "default": "http://www.beian.miit.gov.cn/"
+      }
+    }
+  },
   "author": {
     "name": "snowdreams1006",
     "email": "snowdreams1006@163.com"

@@ -15,6 +15,7 @@
         "readmore",
         "copyright",
         "mygitalk",
+        "multilingual-index",
         "icp"
     ],
     "pluginsConfig": {
@@ -69,9 +70,12 @@
             "admin": ["snowdreams1006"],
             "distractionFreeMode": false
         },
+        "multilingual-index": {
+            "enableSuper": false,
+            "index":"index.html"
+        },
         "icp": {
-            "number":"浙ICP备18042346号",
-            "link":"http://www.beian.miit.gov.cn/"
+            "number":"浙ICP备18042346号"
         }
     }
 }
