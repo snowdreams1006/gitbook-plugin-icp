@@ -12,31 +12,31 @@
 
 > 用于在首页页脚区域添加 icp 网站备案信息的 Gitbook 插件
 
-### 🏠 [Homepage](https://github.com/snowdreams1006/gitbook-plugin-icp#readme)
+### 🏠 [主页](https://github.com/snowdreams1006/gitbook-plugin-icp#readme)
 
-- Github : [https://snowdreams1006.github.io/gitbook-plugin-icp/](https://snowdreams1006.github.io/gitbook-plugin-icp/)
+- GitHub： [https](https://snowdreams1006.github.io/gitbook-plugin-icp/) : [//snowdreams1006.github.io/gitbook-plugin-icp/](https://snowdreams1006.github.io/gitbook-plugin-icp/)
 - Gitlab： [https](https://snowdreams1006.gitlab.io/gitbook-plugin-icp/) ：//snowdreams1006.gitlab.io/gitbook-plugin-icp/
 - Gitee： [https](https://snowdreams1006.gitee.io/gitbook-plugin-icp/) ://snowdreams1006.gitee.io/gitbook-plugin-icp/
 
-## Screenshot
+## 屏幕截图
 
-- multilingual
+- 多种语言
 
 ![icp-multilingual-index-use-preview.png](icp-multilingual-index-use-preview.png)
 
-- monolingual
+- 单语
 
 ![icp-monolingual-index-use-preview.png](icp-monolingual-index-use-preview.png)
 
-## Usage
+## 用法
 
-### Step #1 - Update `book.json` file
+### 步骤＃1-更新`book.json`文件
 
-1. In you gitbook's `book.json` file, add `icp` to `plugins` list.
-2. In `pluginsConfig`,Set the `number` value to your own icp.
-3. In `pluginsConfig`,`label` or `link` value is NOT required.By default link url will be [http://www.beian.miit.gov.cn/](http://www.beian.miit.gov.cn/).
+1. 在您的gitbook的`book.json`文件中，将`icp`添加到`plugins`列表中。
+2. 在`pluginsConfig` ，将`number`值设置为您自己的icp。
+3. 在`pluginsConfig` ，不需要`label`或`link`值。默认情况下，链接URL为[http://www.beian.miit.gov.cn/](http://www.beian.miit.gov.cn/) 。
 
-Here is simplest example :
+这是最简单的示例：
 
 ```json
 {
@@ -49,7 +49,7 @@ Here is simplest example :
 }
 ```
 
-In addition, the supported configuration options are as follows :
+此外，受支持的配置选项如下：
 
 ```json
 "label": {
@@ -70,29 +70,29 @@ In addition, the supported configuration options are as follows :
 }
 ```
 
-### Step #2 - gitbook commands
+### 步骤＃2-gitbook命令
 
-1. Run `gitbook install`. It will automatically install `icp` gitbook plugin for your book. This is needed only once.
+1. 运行`gitbook install` 。它将自动为您的书安装`icp` gitbook插件。仅需要一次。
 
 ```bash
 gitbook install
 ```
 
-or you can run `npm install gitbook-plugin-icp` to install locally.
+或者您可以运行`npm install gitbook-plugin-icp`在本地安装。
 
 ```bash
 npm install gitbook-plugin-icp
 ```
 
-1. Build your book (`gitbook build`) or serve (`gitbook serve`) as usual.
+1. 像往常一样构建您的书（ `gitbook build` ）或服务（ `gitbook serve` ）。
 
 ```bash
 gitbook serve
 ```
 
-## Example
+## 例
 
-- Official documentation configuration file
+- 官方文档配置文件
 
 > [https://github.com/snowdreams1006/gitbook-plugin-icp/blob/master/docs/book.json](https://github.com/snowdreams1006/gitbook-plugin-icp/blob/master/docs/book.json)
 
@@ -107,7 +107,7 @@ gitbook serve
 }
 ```
 
-- Official example configuration file
+- 官方示例配置文件
 
 > [https://github.com/snowdreams1006/gitbook-plugin-icp/blob/master/example/book.json](https://github.com/snowdreams1006/gitbook-plugin-icp/blob/master/example/book.json)
 
@@ -122,7 +122,7 @@ gitbook serve
 }
 ```
 
-- Sample `book.json` file
+- 示例`book.json`文件
 
 ```json
 {
@@ -137,7 +137,7 @@ gitbook serve
 }
 ```
 
-or you can add `label` to custom your label:
+或者，您可以添加`label`以自定义标签：
 
 ```json
 {
@@ -152,7 +152,7 @@ or you can add `label` to custom your label:
 }
 ```
 
-or you can add `link` to custom your link:
+或者您可以添加`link`以自定义链接：
 
 ```json
 {
@@ -167,26 +167,26 @@ or you can add `link` to custom your link:
 }
 ```
 
-**Note**: Above snippet can be used as complete `book.json` file, if your book doesn't have one yet.
+**注意** ：如果您的书还没有，以上代码段可以用作完整的`book.json`文件。
 
-## Author
+## 作者
 
-👤 **snowdreams1006**
+100 **snowdreams1006**
 
-- Website: [snowdreams1006.tech](https://snowdreams1006.tech/)
-- Github: [@snowdreams1006](https://github.com/snowdreams1006)
-- Email: [snowdreams1006@163.com](mailto:snowdreams1006@163.com)
+- 网站： [snowdreams1006.tech](https://snowdreams1006.tech/)
+- [GitHub](https://github.com/snowdreams1006) ： [@ snowdreams1006](https://github.com/snowdreams1006)
+- 电子邮件： [snowdreams1006@163.com](mailto:snowdreams1006@163.com)
 
-## Contributing
+## 贡献
 
-Contributions, issues and feature requests are welcome!<br>Feel free to check [issues page](https://github.com/snowdreams1006/gitbook-plugin-icp/issues).
+欢迎提供文稿，问题和功能请求！ <br>随时检查[问题页面](https://github.com/snowdreams1006/gitbook-plugin-icp/issues) 。
 
-## Show your support
+## 表示支持
 
-Give a [**Star**](https://github.com/snowdreams1006/gitbook-plugin-icp) if this project helped you!
+如果这个项目对您有帮助，请给个[**星星**](https://github.com/snowdreams1006/gitbook-plugin-icp) ！
 
-## Copyright
+## 版权
 
-Copyright © 2019 [snowdreams1006](https://github.com/snowdreams1006).
+版权所有©2019 [snowdreams1006](https://github.com/snowdreams1006) 。
 
-This project is [MIT](https://github.com/snowdreams1006/gitbook-plugin-icp/blob/master/LICENSE) licensed.
+该项目是[MIT](https://github.com/snowdreams1006/gitbook-plugin-icp/blob/master/LICENSE)许可的。
