@@ -1,230 +1,189 @@
-# 欢迎访问 gitbook-plugin-edit-link-plus 官网👋
+# Welcome to gitbook-plugin-icp 👋
 
-[![npm:version](https://img.shields.io/npm/v/gitbook-plugin-edit-link-plus.svg)](https://www.npmjs.com/package/gitbook-plugin-edit-link-plus)
-[![npm:download](https://img.shields.io/npm/dt/gitbook-plugin-edit-link-plus.svg)](https://www.npmjs.com/package/gitbook-plugin-edit-link-plus)
-[![npm:prerequisite](https://img.shields.io/badge/gitbook-*-blue.svg)](https://www.npmjs.com/package/gitbook-plugin-edit-link-plus)
-[![github:documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](https://github.com/snowdreams1006/gitbook-plugin-edit-link-plus#readme)
-[![github:maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/snowdreams1006/gitbook-plugin-edit-link-plus/graphs/commit-activity)
-[![npm:license](https://img.shields.io/npm/l/gitbook-plugin-edit-link-plus.svg)](https://github.com/snowdreams1006/gitbook-plugin-edit-link-plus/blob/master/LICENSE)
+[![npm:version](https://img.shields.io/npm/v/gitbook-plugin-icp.svg)](https://www.npmjs.com/package/gitbook-plugin-icp)
+[![npm:download](https://img.shields.io/npm/dt/gitbook-plugin-icp.svg)](https://www.npmjs.com/package/gitbook-plugin-icp)
+[![npm:prerequisite](https://img.shields.io/badge/gitbook-*-blue.svg)](https://www.npmjs.com/package/gitbook-plugin-icp)
+[![github:documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](https://github.com/snowdreams1006/gitbook-plugin-icp#readme)
+[![github:maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/snowdreams1006/gitbook-plugin-icp/graphs/commit-activity)
+[![npm:license](https://img.shields.io/npm/l/gitbook-plugin-icp.svg)](https://github.com/snowdreams1006/gitbook-plugin-icp/blob/master/LICENSE)
 [![github:snodreams1006](https://img.shields.io/badge/github-snowdreams1006-brightgreen.svg)](https://github.com/snowdreams1006)
 [![website:snodreams1006.tech](https://img.shields.io/badge/website-snowdreams1006.tech-brightgreen.svg)](https://snowdreams1006.tech/)
 [![微信公众号:雪之梦技术驿站-brightgreen.svg](https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7-%E9%9B%AA%E4%B9%8B%E6%A2%A6%E6%8A%80%E6%9C%AF%E9%A9%BF%E7%AB%99-brightgreen.svg)](https://snowdreams1006.github.io/snowdreams1006-wechat-public.jpeg)
 
-> 添加 “编辑此页” 链接并智能识别 `Github` 或 `Gitlab` 源存储库的 `Gitbook` 插件.
+> gitbook plugin for adding icp info to footer
 
-### 🏠 [主页](https://github.com/snowdreams1006/gitbook-plugin-edit-link-plus#readme)
+### 🏠 [Homepage](https://github.com/snowdreams1006/gitbook-plugin-icp#readme)
 
-- Github : [https://snowdreams1006.github.io/gitbook-plugin-edit-link-plus/](https://snowdreams1006.github.io/gitbook-plugin-edit-link-plus/)
-- GitLab : [https://snowdreams1006.gitlab.io/gitbook-plugin-edit-link-plus/](https://snowdreams1006.gitlab.io/gitbook-plugin-edit-link-plus/)
-- Gitee : [https://snowdreams1006.gitee.io/gitbook-plugin-edit-link-plus/](https://snowdreams1006.gitee.io/gitbook-plugin-edit-link-plus/)
+- Github : [https://snowdreams1006.github.io/gitbook-plugin-icp/](https://snowdreams1006.github.io/gitbook-plugin-icp/)
+- GitLab: [https://snowdreams1006.gitlab.io/gitbook-plugin-icp/](https://snowdreams1006.gitlab.io/gitbook-plugin-icp/)
+- Gitee : [https://snowdreams1006.gitee.io/gitbook-plugin-icp/](https://snowdreams1006.gitee.io/gitbook-plugin-icp/)
 
-## 屏幕截图
+## Screenshot
 
-![edit-link-plus-use-preview.png](edit-link-plus-use-preview.png)
+- multilingual
 
-## 用法
+![icp-multilingual-index-use-preview.png](icp-multilingual-index-use-preview.png)
 
-### 步骤＃1-更新`book.json`文件
+- monolingual
 
-1. 在您的gitbook的`book.json`文件中，将`edit-link-plus`到`plugins`列表。
-2. 在`pluginsConfig` ，设置`base`值，该`base`值是github或gitlab或其他代码存储库的基本路径。不需要尾部斜杠。
-3. 默认情况下，链接标签为“编辑此页”。您可以使用插件配置`label`进行更改。
-4. 在`pluginsConfig` ，设置`defaultBase`值，该值设置为github或gitlab或其他代码存储库的默认基本路径。也不需要尾部斜杠。
+![icp-monolingual-index-use-preview.png](icp-monolingual-index-use-preview.png)
 
-这是最简单的示例：
+## Usage
+
+### Step #1 - Update `book.json` file
+
+1. In you gitbook's `book.json` file, add `icp` to `plugins` list.
+2. In `pluginsConfig`,Set the `number` value to your own icp.
+3. In `pluginsConfig`,`label` or `link` value is NOT required.By default link url will be [http://www.beian.miit.gov.cn/](http://www.beian.miit.gov.cn/).
+
+Here is simplest example :
 
 ```json
 {
-    "plugins": ["edit-link-plus"],
+    "plugins": ["icp"],
     "pluginsConfig": {
-        "edit-link-plus": {
-            "base": "https://github.com/USER/REPO/edit/BRANCH/path/to/book"
+        "icp": {
+            "number": "浙ICP备18042346号"
         }
     }
 }
 ```
 
-此外，受支持的配置选项如下：
+In addition, the supported configuration options are as follows : 
 
 ```json
-"base": {
-  "type": [
-    "string",
-    "object"
-  ],
-  "title": "Base for the edit redirection",
+"label": {
+  "type": "string",
+  "title": "icp label",
+  "required": false
+},
+"number": {
+  "type": "string",
+  "title": "icp number",
   "required": true
 },
-"defaultBase": {
+"link": {
   "type": "string",
-  "title": "Default base for the edit redirection",
-  "required": false
-},
-"label": {
-  "type": [
-    "string",
-    "object"
-  ],
-  "title": "Label for the edit button",
-  "default": "Edit This Page",
-  "required": false
+  "title": "link url",
+  "required": false,
+  "default": "http://www.beian.miit.gov.cn/"
 }
 ```
 
-### 步骤＃2-gitbook命令
+### Step #2 - gitbook commands
 
-1. 运行`gitbook install` 。它将自动为您的书安装`edit-link-plus` gitbook插件。仅需要一次。
+1. Run `gitbook install`. It will automatically install `icp` gitbook plugin for your book. This is needed only once.
 
 ```bash
 gitbook install
 ```
 
-或者，您可以运行`npm install gitbook-plugin-edit-link-plus`进行本地安装。
+or you can run `npm install gitbook-plugin-icp` to install locally.
 
 ```bash
-npm install gitbook-plugin-edit-link-plus
+npm install gitbook-plugin-icp
 ```
 
-1. 像往常一样构建您的书（ `gitbook build` ）或服务（ `gitbook serve` ）。
+2. Build your book (`gitbook build`) or serve (`gitbook serve`) as usual.
 
 ```bash
 gitbook serve
 ```
 
-## 示例
+## Example
 
-- 官方文档配置文件
+- Official documentation configuration file
 
-> [https://github.com/snowdreams1006/gitbook-plugin-edit-link-plus/blob/master/docs/book.json](https://github.com/snowdreams1006/gitbook-plugin-edit-link-plus/blob/master/docs/book.json)
+> [https://github.com/snowdreams1006/gitbook-plugin-icp/blob/master/docs/book.json](https://github.com/snowdreams1006/gitbook-plugin-icp/blob/master/docs/book.json)
 
 ```json
 {
-    "plugins": ["edit-link-plus"],
+    "plugins": ["icp"],
     "pluginsConfig": {
-        "edit-link-plus": {
-            "base": {
-              "snowdreams1006.github.io":"https://github.com/snowdreams1006/gitbook-plugin-edit-link-plus/edit/master/docs",
-              "snowdreams1006.gitlab.io":"https://gitlab.com/snowdreams1006/gitbook-plugin-edit-link-plus/edit/master/docs",
-              "snowdreams1006.gitee.io":"https://gitee.com/snowdreams1006/gitbook-plugin-edit-link-plus/edit/master/docs"
-            },
-            "defaultBase": "https://github.com/snowdreams1006/gitbook-plugin-edit-link-plus/edit/master/docs",
-            "label": "Edit This Page"
+        "icp": {
+            "number": "浙ICP备18042346号"
         }
     }
 }
 ```
 
-- 官方示例配置文件
+- Official example configuration file
 
-> [https://github.com/snowdreams1006/gitbook-plugin-edit-link-plus/blob/master/example/book.json](https://github.com/snowdreams1006/gitbook-plugin-edit-link-plus/blob/master/example/book.json)
+> [https://github.com/snowdreams1006/gitbook-plugin-icp/blob/master/example/book.json](https://github.com/snowdreams1006/gitbook-plugin-icp/blob/master/example/book.json)
 
 ```json
 {
-    "plugins": ["edit-link-plus"],
+    "plugins": ["icp"],
     "pluginsConfig": {
-        "edit-link-plus": {
-            "base": "https://github.com/snowdreams1006/gitbook-plugin-edit-link-plus/edit/master/example"
+        "icp": {
+            "number": "浙ICP备18042346号"
         }
     }
 }
 ```
 
-### 示例`book.json`文件
+- Sample `book.json` file 
 
 ```json
 {
-    "plugins": ["edit-link-plus"],
+    "plugins": ["icp"],
     "pluginsConfig": {
-        "edit-link-plus": {
-            "base": "https://github.com/snowdreams1006/gitbook-plugin-edit-link-plus/edit/master/example"
+        "icp": {
+            "number": "YOUR OWN ICP NUMBER"
         }
     }
 }
 ```
 
-或者您可以添加`label`以自定义标签：
+or you can add `label` to custom your label:
 
 ```json
 {
-    "plugins": ["edit-link-plus"],
+    "plugins": ["icp"],
     "pluginsConfig": {
-        "edit-link-plus": {
-            "base": "https://github.com/USER/REPO/edit/BRANCH/path/to/book",
-            "label": "点我反馈"
+        "icp": {
+            "label": "YOUR OWN ICP LABEL",
+            "number": "YOUR OWN ICP NUMBER"
         }
     }
 }
 ```
 
-### 用于多源基础的样本`book.json`文件
+or you can add `link` to custom your link:
 
 ```json
 {
-    "plugins": ["edit-link-plus"],
+    "plugins": ["icp"],
     "pluginsConfig": {
-        "edit-link-plus": {
-            "base": {
-              "USER.github.io":"https://github.com/USER/REPO/edit/BRANCH/path/to/book",
-              "USER.gitlab.io":"https://gitlab.com/USER/REPO/edit/BRANCH/path/to/book",
-              "USER.gitee.io":"https://gitee.com/USER/REPO/edit/BRANCH/path/to/book",
-              "CUSTOME DOMAIN":"https://github.com/snowdreams1006/gitbook-plugin-edit-link-plus/edit/master/docs"
-            },
-            "defaultBase": "https://github.com/USER/REPO/edit/BRANCH/path/to/book",
-            "label": "Edit This Page"
+        "icp": {
+            "label": "YOUR OWN ICP LABEL",
+            "number": "YOUR OWN ICP NUMBER",
+            "link":"YOUR OWN ICP LINK"
         }
     }
 }
 ```
 
-### 用于多语言标签的样例`book.json`文件
+**Note**: Above snippet can be used as complete `book.json` file, if your book doesn't have one yet.
 
-```json
-{
-    "plugins": ["edit-link-plus"],
-    "pluginsConfig": {
-        "edit-link-plus": {
-            "base": "https://github.com/USER/REPO/edit/BRANCH/path/to/book",
-            "label": {
-                "en": "Edit This Page",
-                "zh": "编辑本页"
-            }
-        }
-    }
-}
-```
-
-**注意** ：如果您的书还没有，以上代码段可以用作完整的`book.json`文件。
-
-**Github / Gitlab** ：在字符串`...REPO/edit/BRANCH...` ，如果希望源文件以读取模式打开，而不是直接在github / gitlab上以编辑模式打开，则可以用`tree`替换`edit` 。
-
-## 作者
+## Author
 
 👤 **snowdreams1006**
 
-- 网站： [snowdreams1006.tech](https://snowdreams1006.tech/)
-- [GitHub](https://github.com/snowdreams1006) ： [@ snowdreams1006](https://github.com/snowdreams1006)
-- 电子邮件： [snowdreams1006@163.com](mailto:snowdreams1006@163.com)
+- Website: [snowdreams1006.tech](https://snowdreams1006.tech/)
+- Github: [@snowdreams1006](https://github.com/snowdreams1006)
+- Email: [snowdreams1006@163.com](mailto:snowdreams1006@163.com)
 
-## 贡献
+## Contributing
 
-欢迎提供文稿，问题和功能请求！ <br>随时检查[问题页面](https://github.com/snowdreams1006/gitbook-plugin-edit-link-plus/issues) 。
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/snowdreams1006/gitbook-plugin-icp/issues).
 
-## 表示支持
+## Show your support
 
-如果这个项目对您有帮助，请给个[**星星**](https://github.com/snowdreams1006/gitbook-plugin-edit-link-plus) ！
+Give a [**Star**](https://github.com/snowdreams1006/gitbook-plugin-icp) if this project helped you!
 
-## 版权
+## Copyright
 
-版权所有©2019 [snowdreams1006](https://github.com/snowdreams1006) 。
+Copyright © 2019 [snowdreams1006](https://github.com/snowdreams1006).
 
-该项目是[MIT](https://github.com/snowdreams1006/gitbook-plugin-edit-link-plus/blob/master/LICENSE)许可的。
-
-## 感谢
-
-- [gitbook-plugin-editlink](https://github.com/zhaoda/gitbook-plugin-editlink)
-- [gitbook-plugin-edit-link](https://github.com/rtCamp/gitbook-plugin-edit-link)
-
-## 故障排除
-
-1. 如果没有看到“编辑此页面”链接，请检查`book.json`是否有效。您可以使用此在线工具[-http://json.parser.online.fr/beta/](http://json.parser.online.fr/beta/)
-2. 检查您是否使用默认的gitbook主题。不建议直接修改gitbook主题。
+This project is [MIT](https://github.com/snowdreams1006/gitbook-plugin-icp/blob/master/LICENSE) licensed.
