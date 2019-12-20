@@ -38,7 +38,7 @@ Here is simplest example :
     "plugins": ["icp"],
     "pluginsConfig": {
         "icp": {
-            "base": "https://github.com/USER/REPO/edit/BRANCH/path/to/book"
+            "number": "https://github.com/USER/REPO/edit/BRANCH/path/to/book"
         }
     }
 }
