@@ -12,19 +12,21 @@
 
 > 用于在首页页脚区域添加 icp 网站备案信息的 Gitbook 插件
 
+[中文](./README_zh.md) | [English](./README.md)
+
 ### 🏠 [主页](https://github.com/snowdreams1006/gitbook-plugin-icp#readme)
 
-- GitHub： [https](https://snowdreams1006.github.io/gitbook-plugin-icp/) : [//snowdreams1006.github.io/gitbook-plugin-icp/](https://snowdreams1006.github.io/gitbook-plugin-icp/)
-- Gitlab： [https](https://snowdreams1006.gitlab.io/gitbook-plugin-icp/) ：//snowdreams1006.gitlab.io/gitbook-plugin-icp/
-- Gitee： [https](https://snowdreams1006.gitee.io/gitbook-plugin-icp/) ://snowdreams1006.gitee.io/gitbook-plugin-icp/
+- Github : [https://snowdreams1006.github.io/gitbook-plugin-icp/](https://snowdreams1006.github.io/gitbook-plugin-icp/)
+- GitLab: [https://snowdreams1006.gitlab.io/gitbook-plugin-icp/](https://snowdreams1006.gitlab.io/gitbook-plugin-icp/)
+- Gitee : [https://snowdreams1006.gitee.io/gitbook-plugin-icp/](https://snowdreams1006.gitee.io/gitbook-plugin-icp/)
 
 ## 屏幕截图
 
-- 多种语言
+- 多语言版本
 
 ![icp-multilingual-index-use-preview.png](icp-multilingual-index-use-preview.png)
 
-- 单语
+- 单语言版本
 
 ![icp-monolingual-index-use-preview.png](icp-monolingual-index-use-preview.png)
 
@@ -32,9 +34,9 @@
 
 ### 步骤＃1-更新`book.json`文件
 
-1. 在您的gitbook的`book.json`文件中，将`icp`添加到`plugins`列表中。
-2. 在`pluginsConfig` ，将`number`值设置为您自己的icp。
-3. 在`pluginsConfig` ，不需要`label`或`link`值。默认情况下，链接URL为[http://www.beian.miit.gov.cn/](http://www.beian.miit.gov.cn/) 。
+1. 在您的 `gitbook` 的 `book.json` 文件中，将 `icp` 添加到 `plugins` 列表中。
+2. 在 `pluginsConfig` ,将 `number` 值设置为您自己的 icp 网站备案编号.
+3. 在 `pluginsConfig` ,`label` 或 `link` 值是可选的,默认情况下,链接地址为 [http://www.beian.miit.gov.cn/](http://www.beian.miit.gov.cn/) .
 
 这是最简单的示例：
 
@@ -72,25 +74,27 @@
 
 ### 步骤＃2-gitbook命令
 
-1. 运行`gitbook install` 。它将自动为您的书安装`icp` gitbook插件。仅需要一次。
+1. 运行`gitbook install` .它将自动为您的 `gitbook` 安装 `icp` 插件.
+
+> 该步骤仅需要允许一次即可.
 
 ```bash
 gitbook install
 ```
 
-或者您可以运行`npm install gitbook-plugin-icp`在本地安装。
+或者您可以运行 `npm install gitbook-plugin-icp` 命令本地安装 `gitbook-plugin-icp` 插件.
 
 ```bash
 npm install gitbook-plugin-icp
 ```
 
-1. 像往常一样构建您的书（ `gitbook build` ）或服务（ `gitbook serve` ）。
+2. 像往常一样构建您的书（ `gitbook build` ）或服务（ `gitbook serve` ）.
 
 ```bash
 gitbook serve
 ```
 
-## 例
+## 示例
 
 - 官方文档配置文件
 
@@ -137,7 +141,7 @@ gitbook serve
 }
 ```
 
-或者，您可以添加`label`以自定义标签：
+或者，您可以添加 `label` 以自定义标签：
 
 ```json
 {
@@ -152,7 +156,7 @@ gitbook serve
 }
 ```
 
-或者您可以添加`link`以自定义链接：
+或者您可以添加 `link` 以自定义链接：
 
 ```json
 {
@@ -167,15 +171,15 @@ gitbook serve
 }
 ```
 
-**注意** ：如果您的书还没有，以上代码段可以用作完整的`book.json`文件。
+**注意** ：如果您的书还没有创建,以上代码段可以用作完整的`book.json`文件.
 
 ## 作者
 
-100 **snowdreams1006**
+👤 **snowdreams1006**
 
-- 网站： [snowdreams1006.tech](https://snowdreams1006.tech/)
-- [GitHub](https://github.com/snowdreams1006) ： [@ snowdreams1006](https://github.com/snowdreams1006)
-- 电子邮件： [snowdreams1006@163.com](mailto:snowdreams1006@163.com)
+- 网站 : [snowdreams1006.tech](https://snowdreams1006.tech/)
+- GitHub :  [@snowdreams1006](https://github.com/snowdreams1006)
+- 电子邮件 : [snowdreams1006@163.com](mailto:snowdreams1006@163.com)
 
 ## 贡献
 

@@ -12,6 +12,8 @@
 
 > gitbook plugin for adding icp info to footer
 
+[English](./README.md) | [中文](./README_zh.md)
+
 ### 🏠 [Homepage](https://github.com/snowdreams1006/gitbook-plugin-icp#readme)
 
 - Github : [https://snowdreams1006.github.io/gitbook-plugin-icp/](https://snowdreams1006.github.io/gitbook-plugin-icp/)
