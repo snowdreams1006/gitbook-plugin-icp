@@ -54,21 +54,30 @@ Here is simplest example :
 In addition, the supported configuration options are as follows : 
 
 ```json
-"label": {
-  "type": "string",
-  "title": "icp label",
-  "required": false
-},
-"number": {
-  "type": "string",
-  "title": "icp number",
-  "required": true
-},
-"link": {
-  "type": "string",
-  "title": "link url",
-  "required": false,
-  "default": "http://www.beian.miit.gov.cn/"
+"gitbook": {
+  "properties": {
+    "label": {
+      "type": "string",
+      "title": "icp label",
+      "required": false
+    },
+    "number": {
+      "type": "string",
+      "title": "icp number",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "title": "link url",
+      "required": false,
+      "default": "http://www.beian.miit.gov.cn/"
+    },
+    "style": {
+      "type": "object",
+      "title": "icp number style",
+      "required": false
+    }
+  }
 }
 ```
 

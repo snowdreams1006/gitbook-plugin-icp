@@ -62,9 +62,17 @@
     {% if config.pluginsConfig['icp'] %}
     <li>
         {{ config.pluginsConfig['icp'].label }}
-        <a href="{{ config.pluginsConfig['icp'].link }}" target="blank" class="gitbook-link" style="color:#f72b07">
-        {{ config.pluginsConfig['icp'].number }}
-        </a>
+        {% if config.pluginsConfig['icp'].style %}
+            {% for s,p in config.pluginsConfig['icp'].style %}
+                <a href="{{ config.pluginsConfig['icp'].link }}" target="blank" class="gitbook-link" style="{{ s }}: {{p}}">
+                    {{ config.pluginsConfig['icp'].number }}
+                </a>
+            {%  endfor %}
+        {% else %} 
+            <a href="{{ config.pluginsConfig['icp'].link }}" target="blank" class="gitbook-link">
+                {{ config.pluginsConfig['icp'].number }}
+            </a>
+        {% endif %}
     </li>
     {% endif %}
 </ul>
