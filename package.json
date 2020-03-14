@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-icp",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "gitbook plugin for adding icp info to footer",
   "main": "index.js",
   "engines": {
