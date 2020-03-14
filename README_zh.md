@@ -24,11 +24,11 @@
 
 - 多语言版本
 
-![icp-multilingual-index-use-preview.png](icp-multilingual-index-use-preview.png)
+![icp-multilingual-index-use-preview.png](./icp-multilingual-index-use-preview.png)
 
 - 单语言版本
 
-![icp-monolingual-index-use-preview.png](icp-monolingual-index-use-preview.png)
+![icp-monolingual-index-use-preview.png](./icp-monolingual-index-use-preview.png)
 
 ## 用法
 

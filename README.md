@@ -24,11 +24,11 @@
 
 - multilingual
 
-![icp-multilingual-index-use-preview.png](icp-multilingual-index-use-preview.png)
+![icp-multilingual-index-use-preview.png](./icp-multilingual-index-use-preview.png)
 
 - monolingual
 
-![icp-monolingual-index-use-preview.png](icp-monolingual-index-use-preview.png)
+![icp-monolingual-index-use-preview.png](./icp-monolingual-index-use-preview.png)
 
 ## Usage
 
