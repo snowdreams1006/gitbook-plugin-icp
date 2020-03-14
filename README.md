@@ -169,7 +169,25 @@ or you can add `link` to custom your link:
         "icp": {
             "label": "YOUR OWN ICP LABEL",
             "number": "YOUR OWN ICP NUMBER",
-            "link":"YOUR OWN ICP LINK"
+            "link": "YOUR OWN ICP LINK"
+        }
+    }
+}
+```
+
+or you can add `style` to custom your style of number:
+
+```json
+{
+    "plugins": ["icp"],
+    "pluginsConfig": {
+        "icp": {
+            "label": "YOUR OWN ICP LABEL",
+            "number": "YOUR OWN ICP NUMBER",
+            "link": "YOUR OWN ICP LINK",
+            "style": {
+              "color":  "#f72b07"
+            }
         }
     }
 }

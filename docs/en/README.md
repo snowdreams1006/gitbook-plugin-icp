@@ -173,6 +173,24 @@ or you can add `link` to custom your link:
 }
 ```
 
+or you can add `style` to custom your style of number:
+
+```json
+{
+    "plugins": ["icp"],
+    "pluginsConfig": {
+        "icp": {
+            "label": "YOUR OWN ICP LABEL",
+            "number": "YOUR OWN ICP NUMBER",
+            "link": "YOUR OWN ICP LINK",
+            "style": {
+              "color":  "#f72b07"
+            }
+        }
+    }
+}
+```
+
 **Note**: Above snippet can be used as complete `book.json` file, if your book doesn't have one yet.
 
 ## Author

@@ -157,7 +157,7 @@ gitbook serve
         "icp": {
             "label": "YOUR OWN ICP LABEL",
             "number": "YOUR OWN ICP NUMBER",
-            "link":"YOUR OWN ICP LINK"
+            "link": "YOUR OWN ICP LINK"
         }
     }
 }
@@ -172,7 +172,25 @@ gitbook serve
         "icp": {
             "label": "YOUR OWN ICP LABEL",
             "number": "YOUR OWN ICP NUMBER",
-            "link":"YOUR OWN ICP LINK"
+            "link": "YOUR OWN ICP LINK"
+        }
+    }
+}
+```
+
+或者您可以添加 `style` 以自定义备案样式：
+
+```json
+{
+    "plugins": ["icp"],
+    "pluginsConfig": {
+        "icp": {
+            "label": "YOUR OWN ICP LABEL",
+            "number": "YOUR OWN ICP NUMBER",
+            "link": "YOUR OWN ICP LINK",
+            "style": {
+              "color":  "#f72b07"
+            }
         }
     }
 }
