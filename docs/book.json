@@ -12,6 +12,7 @@
         "favicon-absolute",
         "github-buttons",
         "edit-link-plus",
+        "copy-code-button",
         "readmore",
         "copyright",
         "mygitalk",
@@ -59,7 +60,8 @@
             "site": "https://snowdreams1006.github.io/gitbook-plugin-icp",
             "author": "雪之梦技术驿站",
             "website": "雪之梦技术驿站",
-            "image": "https://snowdreams1006.github.io/snowdreams1006-wechat-open.png"
+            "image": "https://snowdreams1006.github.io/snowdreams1006-wechat-open.png",
+            "copyProtect": false
         },
         "mygitalk": {
             "clientID": "3f62415a283d19cbd696",

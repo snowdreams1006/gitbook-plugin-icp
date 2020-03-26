@@ -24,11 +24,11 @@
 
 - multilingual
 
-![icp-multilingual-index-use-preview.png](./icp-multilingual-index-use-preview.png)
+![icp-multilingual-index-use-preview.png](icp-multilingual-index-use-preview.png)
 
 - monolingual
 
-![icp-monolingual-index-use-preview.png](./icp-monolingual-index-use-preview.png)
+![icp-monolingual-index-use-preview.png](icp-monolingual-index-use-preview.png)
 
 ## Usage
 
@@ -169,7 +169,7 @@ or you can add `link` to custom your link:
         "icp": {
             "label": "YOUR OWN ICP LABEL",
             "number": "YOUR OWN ICP NUMBER",
-            "link": "YOUR OWN ICP LINK"
+            "link":"YOUR OWN ICP LINK"
         }
     }
 }
