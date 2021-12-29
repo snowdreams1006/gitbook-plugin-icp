@@ -48,9 +48,6 @@
     "email": "snowdreams1006@163.com"
   },
   "license": "MIT",
-  "dependencies": {
-    "moment": "^2.10.6"
-  },
   "bugs": {
     "url": "https://github.com/snowdreams1006/gitbook-plugin-icp/issues"
   },
