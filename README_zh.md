@@ -221,3 +221,7 @@ gitbook serve
 版权所有©2019 [snowdreams1006](https://github.com/snowdreams1006) 。
 
 该项目是[MIT](https://github.com/snowdreams1006/gitbook-plugin-icp/blob/master/LICENSE)许可的。
+
+## 感谢
+
+- [/zhj3618/gitbook-plugin-tbfed-pagefooter](https://github.com/zhj3618/gitbook-plugin-tbfed-pagefooter)

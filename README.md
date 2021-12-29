@@ -216,3 +216,7 @@ Give a [**Star**](https://github.com/snowdreams1006/gitbook-plugin-icp) if this 
 Copyright © 2019 [snowdreams1006](https://github.com/snowdreams1006).
 
 This project is [MIT](https://github.com/snowdreams1006/gitbook-plugin-icp/blob/master/LICENSE) licensed.
+
+## Thanks
+
+- [/zhj3618/gitbook-plugin-tbfed-pagefooter](https://github.com/zhj3618/gitbook-plugin-tbfed-pagefooter)
