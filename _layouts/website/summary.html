@@ -54,7 +54,7 @@
     <li class="divider"></li>
 
     <li>
-        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+        <a href="https://www.gitbook.com" target="_blank" class="gitbook-link">
             {{ "GITBOOK_LINK"|t }}
         </a>
     </li>
@@ -66,13 +66,13 @@
         {% if config.pluginsConfig['icp'].style  %}
             {% for s,p in config.pluginsConfig['icp'].style %}
                 {% set _style = true %}
-                <a href="{{ config.pluginsConfig['icp'].link }}" target="blank" class="gitbook-link" style="{{ s }}: {{p}}">
+                <a href="{{ config.pluginsConfig['icp'].link }}" target="_blank" class="gitbook-link" style="{{ s }}: {{p}}">
                     {{ config.pluginsConfig['icp'].number }}
                 </a>
             {%  endfor %}
         {% endif %}
         {% if not _style %}
-            <a href="{{ config.pluginsConfig['icp'].link }}" target="blank" class="gitbook-link">
+            <a href="{{ config.pluginsConfig['icp'].link }}" target="_blank" class="gitbook-link">
                 {{ config.pluginsConfig['icp'].number }}
             </a>
         {% endif %}
