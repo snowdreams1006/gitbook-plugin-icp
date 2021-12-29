@@ -1,5 +1,9 @@
 #! /bin/bash
 
+# npm config set registry https://registry.npmjs.org
+# npm login --registry https://registry.npmjs.org
+# npm publish --registry https://registry.npmjs.org
+
 # prepare for generate docs
 cd docs
 

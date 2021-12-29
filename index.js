@@ -7,7 +7,7 @@ module.exports = {
   },
   hooks: {
     'page:before': function(page) {
-        var label = '&copy ' + location.hostname + ' 版权所有 ICP证： ';
+        var label = '&copy 版权所有 ICP证： ';
         var icp = "";
         if(this.options.pluginsConfig['icp']) {
             label = this.options.pluginsConfig['icp']['label'];
