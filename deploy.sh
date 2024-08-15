@@ -1,4 +1,4 @@
-#! /bin/bash
+#! /bin/sh
 
 # copy info
 cp -rf README.md docs/en/
