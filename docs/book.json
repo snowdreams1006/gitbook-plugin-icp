@@ -10,12 +10,9 @@
     },
     "plugins": [
         "favicon-absolute",
-        "github-buttons",
-        "edit-link-plus",
         "copy-code-button",
         "readmore",
         "copyright",
-        "mygitalk",
         "icp"
     ],
     "pluginsConfig": {
@@ -33,23 +30,6 @@
                 "180x180": "/apple-touch-icon-precomposed-180.png"
             }
         },
-        "github-buttons": {
-            "buttons": [{
-                "user": "snowdreams1006",
-                "repo": "gitbook-plugin-icp",
-                "type": "star",
-                "size": "small"
-            }]
-        },
-        "edit-link-plus": {
-            "base": {
-              "snowdreams1006.github.io":"https://github.com/snowdreams1006/gitbook-plugin-icp/edit/master/docs",
-              "snowdreams1006.gitlab.io":"https://gitlab.com/snowdreams1006/gitbook-plugin-icp/edit/master/docs",
-              "snowdreams1006.gitee.io":"https://gitee.com/snowdreams1006/gitbook-plugin-icp/edit/master/docs"
-            },
-            "defaultBase": "https://github.com/snowdreams1006/gitbook-plugin-icp/edit/master/docs",
-            "label": "Edit This Page"
-        },
         "readmore": {
             "blogId": "15702-1569305559839-744",
             "name": "雪之梦技术驿站",
@@ -63,18 +43,10 @@
             "image": "https://snowdreams1006.github.io/snowdreams1006-wechat-open.png",
             "copyProtect": false
         },
-        "mygitalk": {
-            "clientID": "b113d072106613338edf",
-            "clientSecret": "461dbb95f7cc4b52e69148bcdd937c23fa33da0b",
-            "repo": "gitbook-plugin-icp",
-            "owner": "snowdreams1006",
-            "admin": ["snowdreams1006"],
-            "distractionFreeMode": false
-        },
         "icp": {
-            "label": "&copy 2009-2021 snowdreams1006.cn all right reserved.",
+            "label": "&copy 2009-2024 all right reserved.",
             "number": "浙ICP备18042346号",
             "link": "https://beian.miit.gov.cn/"
-        },
+        }
     }
 }

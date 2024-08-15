@@ -4,17 +4,17 @@
 # npm login --registry https://registry.npmjs.org
 # npm publish --registry https://registry.npmjs.org
 
-# prepare for generate docs
-cd docs
+# # prepare for generate docs
+# cd docs
 
-# re-generate docs
-rm -rf _book/ && gitbook build
+# # re-generate docs
+# rm -rf _book/ && gitbook build
 
-# copy to docs
-cp -rf _book/ .
+# # copy to docs
+# cp -rf _book/ .
 
-# prepare for push 
-cd ..
+# # prepare for push 
+# cd ..
 
 # add commits
 git add .
