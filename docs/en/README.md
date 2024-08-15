@@ -7,26 +7,9 @@
 [![github:maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/snowdreams1006/gitbook-plugin-icp/graphs/commit-activity)
 [![npm:license](https://img.shields.io/npm/l/gitbook-plugin-icp.svg)](https://github.com/snowdreams1006/gitbook-plugin-icp/blob/master/LICENSE)
 [![github:snodreams1006](https://img.shields.io/badge/github-snowdreams1006-brightgreen.svg)](https://github.com/snowdreams1006)
-[![website:snodreams1006.tech](https://img.shields.io/badge/website-snowdreams1006.tech-brightgreen.svg)](https://snowdreams1006.tech/)
 [![微信公众号:雪之梦技术驿站-brightgreen.svg](https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7-%E9%9B%AA%E4%B9%8B%E6%A2%A6%E6%8A%80%E6%9C%AF%E9%A9%BF%E7%AB%99-brightgreen.svg)](https://snowdreams1006.github.io/snowdreams1006-wechat-public.jpeg)
 
 > gitbook plugin for adding icp info to footer
-
-### 🏠 [Homepage](https://github.com/snowdreams1006/gitbook-plugin-icp#readme)
-
-- Github : [https://snowdreams1006.github.io/gitbook-plugin-icp/](https://snowdreams1006.github.io/gitbook-plugin-icp/)
-- GitLab: [https://snowdreams1006.gitlab.io/gitbook-plugin-icp/](https://snowdreams1006.gitlab.io/gitbook-plugin-icp/)
-- Gitee : [https://snowdreams1006.gitee.io/gitbook-plugin-icp/](https://snowdreams1006.gitee.io/gitbook-plugin-icp/)
-
-## Screenshot
-
-- multilingual
-
-![icp-multilingual-index-use-preview.png](icp-multilingual-index-use-preview.png)
-
-- monolingual
-
-![icp-monolingual-index-use-preview.png](icp-monolingual-index-use-preview.png)
 
 ## Usage
 
@@ -100,36 +83,6 @@ gitbook serve
 ```
 
 ## Example
-
-- Official documentation configuration file
-
-> [https://github.com/snowdreams1006/gitbook-plugin-icp/blob/master/docs/book.json](https://github.com/snowdreams1006/gitbook-plugin-icp/blob/master/docs/book.json)
-
-```json
-{
-    "plugins": ["icp"],
-    "pluginsConfig": {
-        "icp": {
-            "number": "浙ICP备18042346号"
-        }
-    }
-}
-```
-
-- Official example configuration file
-
-> [https://github.com/snowdreams1006/gitbook-plugin-icp/blob/master/example/book.json](https://github.com/snowdreams1006/gitbook-plugin-icp/blob/master/example/book.json)
-
-```json
-{
-    "plugins": ["icp"],
-    "pluginsConfig": {
-        "icp": {
-            "number": "浙ICP备18042346号"
-        }
-    }
-}
-```
 
 - Sample `book.json` file 
 
@@ -208,6 +161,8 @@ Contributions, issues and feature requests are welcome!<br />Feel free to check 
 ## Show your support
 
 Give a [**Star**](https://github.com/snowdreams1006/gitbook-plugin-icp) if this project helped you!
+
+![snowdreams1006-wechat-donate.jpg](https://snowdreams1006.github.io/snowdreams1006-wechat-donate.jpg)
 
 ## Copyright
 

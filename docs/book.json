@@ -11,8 +11,8 @@
     "plugins": [
         "favicon-absolute",
         "copy-code-button",
-        "readmore",
         "copyright",
+        "last-update-time",
         "icp"
     ],
     "pluginsConfig": {
