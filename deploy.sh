@@ -1,26 +1,45 @@
 #! /bin/bash
 
-# npm config set registry https://registry.npmjs.org
-# npm login --registry https://registry.npmjs.org
-# npm publish --registry https://registry.npmjs.org
+# copy info
+cp -rf README.md docs/en/
+cp -rf README_zh.md docs/zh/README.md
 
-# # prepare for generate docs
-# cd docs
+cp -rf README.md example/en/
+cp -rf README_zh.md example/zh/README.md
 
-# # re-generate docs
-# rm -rf _book/ && gitbook build
+cp -rf docs/en/SUMMARY.md example/en/
+cp -rf docs/zh/SUMMARY.md example/zh/
 
-# # copy to docs
-# cp -rf _book/ .
+# status latest
+git status
 
-# # prepare for push 
-# cd ..
+# pull latest 
+git pull
 
 # add commits
 git add .
+# commit 
+git commit -m "auto update"
+# push to github and others
+git push
 
+# prepare for generate docs
+cd docs
+
+# re-generate docs
+rm -rf _book/ && gitbook build
+# copy to docs
+cp -rf _book/* ./
+
+# prepare for push 
+cd ..
+
+# add commits
+git add .
 # commit 
 git commit -m "auto deploy website"
-
 # push to github and others
-git push origin master
+git push
+
+# status latest 
+git status
